@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paylaştıkça | Bilgi Paylaştıkça Çoğalır...</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- !navbar başlangıç -->
+    <nav class="navbar bg-dark navbar-expand-lg  fixed-top ">
+        <div class="container-fluid ">
+            <a class="navbar-brand text-light" href="#">PAYLAŞTIKÇA | Bilgi PAylaştıkça Çoğalır..</a>
+            <button class="navbar-toggler "style="color: #eff0f0;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color: #eff0f0;"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="/top">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#hakkimizda">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#ekibimiz">Ekimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#galeri">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#iletisim">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- !navbar bitiş -->
+    <!-- slider başlangıç -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/sl1.jpg" class="d-block w-100 sliderImg" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/sl2.jpg" class="d-block w-100 sliderImg" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/sl3.jpg" class="d-block w-100 sliderImg" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider bitiş -->
+    <!-- !hakkımızda başlangıç -->
+    <section id="hakkimizda" class="p-5 text-center ">
+        <div class="container">
+            <h2 class="title text-uppercase mb-5 fw-bold">Hakkımızda</h2>
+            <hr class="ayrac"><i class="fa-solid fa-leaf" style="color: #72d133;"></i>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat eligendi dicta similique unde et
+                doloremque sed animi eveniet atque dolorem aliquam assumenda deserunt iste rem laudantium ipsum
+                praesentium, dolores natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+                molestias cumque. Placeat voluptate laboriosam eius rerum minima ab. Laudantium rerum sit officia est
+                doloribus omnis ea harum, veritatis corrupti minima.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sed sapiente ex tenetur nemo iure laborum
+                enim cum quidem veritatis, incidunt provident dolore libero accusantium nihil? Aliquam nostrum modi
+                exercitationem!Lorem</p>
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+    <!-- !hakkımızda bitiş -->
+    <!-- ekimiz başlangıç -->
+    <section id="ekibimiz" class="p-5 text-center ">
+        <div class="container">
+            <h2 class="title text-uppercase mb-5 fw-bold">EKİBİMİZ</h2>
+            <hr class="ayrac"><i class="fa-solid fa-leaf" style="color: #72d133;"></i>
+            <div class="row gap-5">
+ <!-- TODO 1.kart başlangıç -->
+ <div class="card shadow" style="width: 18rem;">
+    <img src="images/ekip1.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Ali Cangöz</h5>
+      <p class="card-text">Genel Müdür</p>
+    </div>
+   
+  </div>
+   <!-- TODO 1.kart bitiş -->
+   <!--  TODO 2.kart başlangıç -->
+<div class="card shadow" style="width: 18rem;">
+    <img src="images/ekip2.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Esma Şimşek</h5>
+      <p class="card-text">Kurucu</p>
+    </div>
+   
+  </div>
+   <!--  TODO 2.kart bitiş -->
+   <!-- TODO 3.kart başlangıç -->
+<div class="card shadow" style="width: 18rem;">
+    <img src="images/ekip3.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Ayşe Gülistan</h5>
+      <p class="card-text">Finans</p>
+    </div>
+   
+  </div>
+   <!-- TODO 3.kart bitiş -->
+   <!-- TODO 4.kart başlangıç -->
+<div class="card shadow" style="width: 18rem;">
+    <img src="images/ekip4.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Enes Can</h5>
+      <p class="card-text">Developer</p>
+    </div>
+   
+  </div>
+   <!-- TODO 4.kart bitiş -->
+      <!-- TODO 5.kart başlangıç -->
+<div class="card shadow" style="width: 18rem;">
+    <img src="images/ekip5.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Sevde Türk</h5>
+      <p class="card-text">Mühendis</p>
+    </div>
+   
+  </div>
+   <!-- TODO 5.kart bitiş -->
+      <!-- TODO 5.kart başlangıç -->
+<div class="card shadow" style="width: 18rem;">
+    <img src="images/ekip6.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Ahmet Tevek</h5>
+      <p class="card-text">CEO</p>
+    </div>
+   
+  </div>
+   <!-- TODO 5.kart bitiş -->
+   <!--  TODO 6.kart başlangıç -->
+<div class="card shadow" style="width: 18rem;">
+    <img src="images/ekip2.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Esma Şimşek</h5>
+      <p class="card-text">Kurucu</p>
+    </div>
+   
+  </div>
+   <!--  TODO 6.kart bitiş -->
+   <!-- TODO 7.kart başlangıç -->
+<div class="card shadow" style="width: 18rem;">
+    <img src="images/ekip3.jpg" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Ayşe Gülistan</h5>
+      <p class="card-text">Finans</p>
+    </div>
+   
+  </div>
+   <!-- TODO 7.kart bitiş -->
+            </div>
+           
+        </div>
+
+    </section>
+    <!-- ekibimiz bitiş -->
+    <!-- !galeri başlangıç -->
+    <section id="galeri" class="p-5 text-center ">
+        <div class="container">
+            <h2 class="title text-uppercase mb-5 fw-bold">Galerİ</h2>
+            <hr class="ayrac"><i class="fa-solid fa-leaf" style="color: #72d133;"></i>
+            <div class="gallery">
+                <div class="div1"><img src="images/r1.jpg" > </div>
+                <div class="div2"> <img src="images/r2.jpg" > </div>
+                <div class="div3"> <img src="images/r3.jpg" > </div>
+                <div class="div4"><img src="images/r4.jpg" >  </div>
+                <div class="div5"><img src="images/r5.jpg" >  </div>
+                <div class="div6"> <img src="images/r6.jpg" > </div>
+                <div class="div7"> <img src="images/r7.jpg" > </div>
+                <div class="div8"> <img src="images/r8.jpg" > </div>
+                </div>
+            </div>
+                
+        </div>
+
+    </section>
+     <!-- !galeri bitiş -->
+     <!-- iletişim başlangıç -->
+     <section id="iletisim" class="p-5 text-center ">
+        <div class="container ">
+            <h2 class="title text-uppercase mb-5 fw-bold">İletİŞİM</h2>
+            <hr class="ayrac"><i class="fa-solid fa-leaf" style="color: #72d133;"></i>
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">AD</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPassword">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label  class="col-sm-2 col-form-label">SOYAD</label>
+                <div class="col-sm-10">
+                  <input type="TEXT" class="form-control" id="inputPassword">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">E-MAIL</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputPassword">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">MESAJINIZ</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" cols="30"></textarea>
+                </div>
+              </div>
+              <div class="mb-3 ">
+               <button class="col-md-3 btn btn-primary row ms-auto">GÖNDER</button>
+              </div>
+        </div>
+
+     </section>
+     <!-- iletişim bitiş -->
+     <!-- !footer başlangıç -->
+     <div class="bg-dark text-light text-center">
+        <p class="align-middle p-5 mb-0"> <span>Tüm hakları Saklıdır &copy; |2023</span><br>
+        <span>Designed by <b>PAYLAŞTIKÇA</b></span>
+        </p>
+     </div>
+       <!-- !footer bitiş -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// gallery sınıfındaki tüm resimleri seçin
+var images = document.querySelectorAll('.gallery img');
+
+// her resim için click olayını dinleyin
+images.forEach(function(img) {
+  img.addEventListener('click', function() {
+    if (img.classList.contains('active')) {
+      // resmi küçültün
+      img.style.width = '';
+      img.style.height = '';
+      img.classList.remove('active');
+   
+      // resmi sayfanın eski yerine kaydırın
+      img.style.position = '';
+      img.style.top = '';
+      img.style.left = '';
+      img.style.transform = '';
+      
+      // sayfanın kaydırmasını yeniden etkinleştirin
+      document.body.style.overflow = '';
+    } else {
+      // resmin büyüklüğünü değiştirin
+      img.style.width = '80%';
+      img.style.height = '80%';
+      img.classList.add('active');
+      
+      // resmi sayfanın ortasına kaydırın
+      img.style.position = 'fixed';
+      img.style.top = '50%';
+      img.style.left = '50%';
+      img.style.transform = 'translate(-50%, -50%)';
+      
+      // sayfanın geri kalanı üzerindeki kaydırmayı engelleyin
+      document.body.style.overflow = 'hidden';
+    }
+  });
+});
+
+
+
+
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

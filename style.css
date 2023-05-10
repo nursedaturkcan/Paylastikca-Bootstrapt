@@ -1,0 +1,73 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+
+.sliderImg{
+    height: 600px;
+}
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f2f2f2;
+}
+.navbar-toggler{
+    color: white !important;
+  
+}
+.navbar-toggler-icon{
+    color: #fff !important;
+    background-color: #f2f2f2 !important;
+}
+.ayrac{
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+
+}
+.fa-leaf{
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+    
+}
+.card img:hover{
+    opacity: 0.8;
+}
+.gallery {
+   
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,8.2rem);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    
+    }
+    .gallery img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .4s ease;
+
+    }
+    .gallery img:hover{
+        cursor: pointer;
+    
+ 
+    }
+   
+    
+    
+
+    .div1 { grid-area: 1 / 1 / 4 / 3;  }
+    .div2 { grid-area: 1 / 3 / 2 / 4; }
+    .div3 { grid-area: 2 / 3 / 4 / 4; }
+    .div4 { grid-area: 4 / 1 / 5 / 3; }
+    .div5 { grid-area: 5 / 1 / 6 / 2; }
+    .div6 { grid-area: 4 / 3 / 6 / 4; }
+    .div7 { grid-area: 5 / 2 / 6 / 3; }
+    .div8 { grid-area: 1 / 4 / 6 / 5; }
