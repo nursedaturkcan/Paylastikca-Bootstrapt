@@ -1,2 +1,2 @@
 # Paylastikca-Bootstrapt
- ![]()<img src="paylastikcagif.gif">
+ ![]()<img src="paylatikcagif.gif">
